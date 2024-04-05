@@ -1,0 +1,244 @@
+body {
+ background: linear-gradient(to bottom, #19191e 0%, #19191e 24.8%, white 24.8%, white 37.3%, #19191e 37.3%, #19191e 67.3%, white 67.3%);
+}
+main {
+	margin: auto;
+	width: 1200px;
+}
+/* ceci est le code ccs de la baniere/menu de navigation */
+header {
+	margin-top: 0px;
+	background-color: white;
+	margin-top: 50px;
+	display: grid;
+	grid-template-columns: 230px 160px 420px 160px 230px;
+	grid-template-rows: 1fr;
+	position: sticky;
+	top: 5px;
+}
+#principal {
+	margin-top: 169px;
+}
+/* avec une div, une classe ou un ID l'image les regles de l'image ne s'appliquent pas */
+body main header div img {
+	width: 50px;
+	margin: 10px;
+	margin-top: 15px;
+	place-items: center;
+}
+#combats {
+	font-family: "Robot.ttf"; 
+	grid-column: 2;
+	grid-row: 1;
+	text-align: center;
+	margin-top: 30px;
+	margin-right: 42px;
+	margin-left: 45px;
+	margin-bottom: 23px;
+	border: solid;
+	border-bottom-width: 2px;
+	border-bottom-color: #d20a0a;
+	border-left-style: none;
+	border-right-style: none;
+	border-top-style: none;
+	text-decoration: none;
+}
+#bsd_header {
+	font-family: "Robot.ttf";
+	font-size: 35px;
+	color: #19191e;
+	grid-column: 3;
+	grid-row: 1;
+	text-align: center;
+	margin-top: 24px;
+	margin-bottom: 0px;
+	text-decoration: none;
+}
+#biographie {
+	font-family: "Robot.ttf"; 
+	grid-column: 4;
+	grid-row: 1;
+	text-align: center;
+	margin-top: 30px;
+	margin-bottom: 23px;
+	margin-left: 40px;
+	margin-right: 27px;
+	border: solid;
+	border-bottom-width: 2px;
+	border-bottom-color: #d20a0a;
+	border-left-style: none;
+	border-right-style: none;
+	border-top-style: none;
+	text-decoration: none;
+}
+
+a:hover {
+	opacity: 50%;
+	border-bottom-color: blue;
+}
+#couteau {
+	width: 70px;
+	grid-column: 5;
+	margin-left: 155px;
+	margin-top: 8px;
+}
+/* ceci est la fin du code ccs de la baniere/menu de navigation */
+/* ceci est le code de l'introduction de la biographie de Benoit Saint Denis */
+#intro h1 {
+	color: white;
+	font-family: "Robot.ttf";
+	font-size: 50px;
+	margin-top: 200px;
+	text-align: center;
+}
+#intro p {
+	color: white;
+	font-family: "Aeromatics.ttf";
+	font-size: 25px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	text-align: center;
+}
+/* ceci est la fin du code de l'introduction de la biographie de Benoit Saint Denis */
+/* ceci est le code de la rubrique jeunnesse de la biographie de Benoit Saint Denis */
+#jeun {
+	font-family: "Aeromatics.ttf";
+	color: black;
+	margin-top: 100px;
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: 50px 155px 1fr; 
+}
+#jeun h1 {
+	grid-column: 1 / 2;
+	grid-row: 1;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	font-size: 35px;
+	border: solid;
+	border-bottom-width: 4px;
+	border-bottom-color: #d20a0a;
+	border-left-style: none;
+	border-right-style: none;
+	border-top-style: none;
+}
+#jeun p {
+	grid-column: 1 / 2;
+	grid-row: 2;
+	margin-top: 20px;
+	font-size: 20px;
+}
+/* ceci est la fin du code de la rubrique jeunnesse de la biographie de Benoit Saint Denis */
+/* ceci est le code de la rubrique armée de la biographie de Benoit Saint Denis */
+#army {
+	font-family: "Aeromatics.ttf";
+	color: white;
+	margin-top: 100px;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 50px 200px 1fr; 
+}
+#army h1 {
+	grid-column: 1 / 4;
+	grid-row: 1;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	font-size: 35px;
+	border: solid;
+	border-bottom-width: 4px;
+	border-bottom-color: #d20a0a;
+	border-left-style: none;
+	border-right-style: none;
+	border-top-style: none;
+}
+#army p {
+	grid-column: 1 / 4;
+	grid-row: 2;
+	margin-top: 20px;
+	font-size: 20px;
+}
+
+#army1 {
+	grid-row: 3;
+	grid-column: 1;
+	width: 322px;
+}
+#army2 {
+	grid-row: 3;
+	grid-column: 2;
+	width: 370px;
+	margin-right: 10px;
+}
+#army3 {
+	grid-row: 3;
+	grid-column: 3;
+	width: 488px;
+}
+/* ceci est la fin du code de la rubrique armée de la biographie de Benoit Saint Denis */
+/* ceci est le code de la rubrique MMA de la biographie de Benoit Saint Denis */
+#mma {
+	font-family: "Aeromatics.ttf";
+	color: black;
+	margin-top: 100px;
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: 50px 200px 1fr; 
+}
+#mma h1 {
+	grid-column: 1 / 4;
+	grid-row: 1;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	font-size: 35px;
+	border: solid;
+	border-bottom-width: 4px;
+	border-bottom-color: #d20a0a;
+	border-left-style: none;
+	border-right-style: none;
+	border-top-style: none;
+}
+#mma p {
+	grid-column: 1 / 4;
+	grid-row: 2;
+	margin-top: 20px;
+	font-size: 20px;
+}
+#mma1 {
+	grid-row: 3;
+	grid-column: 1;
+	width: 420px;
+}
+#mma2 {
+	grid-row: 3;
+	grid-column: 2;
+	width: 300px;
+	margin-right: 10px;
+}
+#mma3 {
+	grid-row: 3;
+	grid-column: 3;
+	width: 460px;
+}
+/* ceci est la fin du code de la rubrique MMA de la biographie de Benoit Saint Denis */
+footer {
+	font-family: "Aeromatics.ttf";
+	background-color: #19191e; 
+	color: white;
+	margin-top: 20px;
+	padding-top: 70px;
+	text-align: center;
+	padding-bottom: 70px;
+}
+/* voici mes polices d'écriture */
+@font-face {
+  font-family: "Aeromatics.ttf";
+  src:
+    local("Aeromatics.ttf"),
+    url("font/Aeromatics.ttf") format("opentype");
+}
+@font-face {
+  font-family: "Robot.ttf";
+  src:
+    local("Robot.ttf"),
+    url("font/Robot.ttf") format("opentype");
+}
